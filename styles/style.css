@@ -1,0 +1,376 @@
+/* -------------
+font awsome link
+------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:ital,wght@0,400;0,500;0,700;1,600&display=swap');
+
+/* =========common style=========== */
+:root {
+    --common: #131313;
+}
+
+:root {
+    --orange: #FF900E;
+}
+
+:root {
+    --halka-kala: #727272;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*------------------ header section style------------------ */
+/* --------
+navbar style
+------- */
+header {
+
+    background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+a {
+    color: var(--common);
+}
+
+nav li {
+    padding-top: 50px;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 800;
+    font-size: 18px;
+
+}
+
+.logo {
+    padding-top: 50px;
+    margin-left: 40px;
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--common);
+}
+
+/* -------------
+banner style start
+-------------- */
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--common);
+    padding-top: 105px;
+}
+
+.description {
+    text-align: center;
+    font-weight: 200;
+    font-size: 16px;
+    padding-top: 25px;
+    color: var(--halka-kala);
+}
+
+/* --------------------button style--------------------- */
+.button-primary {
+    background: var(--orange);
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 550px;
+    margin-top: 32px;
+    transition: 0.2s;
+}
+
+.button-primary2 {
+    background: var(--orange);
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+
+    margin-top: 32px;
+    transition: 0.2s;
+}
+
+.button-primary2:hover {
+    border-radius: 50px 0 50px 0;
+}
+
+.button-primary:hover {
+    border-radius: 50px 0 50px 0;
+}
+
+/* banner image style */
+.container {
+    max-width: 1440px;
+    width: 96%;
+    margin: 0 auto;
+
+}
+
+.banner-image img {
+    height: 100%;
+    width: 100%;
+    padding: 50px 50px 45px 50px;
+
+}
+
+/*----------our future banner content--------------  */
+
+/* future banner */
+.future-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+    padding-top: 50px;
+
+}
+
+/* future text/title */
+.our-future-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 75px;
+
+}
+
+.halka {
+    font-weight: 500;
+    font-size: 45px;
+    color: var(--halka-kala);
+}
+
+.for-color {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: var(--orange);
+
+}
+
+.black-bold {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--common);
+}
+
+.description-f {
+    text-align: left;
+}
+
+/* ----------------Features love and enjoy part style------------ */
+
+
+.text-title {
+    margin-left: 50px;
+}
+
+.archeitect {
+    width: 600px;
+    height: 950px;
+}
+
+.love-enjoy-content {
+    display: flex;
+    gap: 30px;
+    padding-top: 170px;
+
+
+}
+
+.enjoy-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--common);
+}
+
+.enjoy-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--halka-kala);
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+
+.box {
+    background: var(--white);
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 6%);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 586px;
+    height: 171px;
+}
+
+.text-box-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+
+}
+
+.text-box-desc {
+    padding: 20px 30px 30px 30px;
+}
+
+
+
+/* big button */
+.experience-btn {
+    margin-left: 600px;
+    margin-top: -150px;
+}
+
+.big-button {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: var(--orange);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    border: none;
+    transition: 0.4s;
+
+}
+
+.big-button:hover {
+    border-radius: 100px;
+    transform: rotate(5deg);
+}
+
+
+/* ----------------facts part style----------- */
+.facts-content {
+    padding-left: 90px;
+    padding-top: 100px;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--common);
+    margin-bottom: 20px;
+}
+
+.facts-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--halka-kala);
+}
+
+/*------------ icons------------ */
+.facts_item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 90px;
+    gap: 50px;
+}
+
+.item {
+    width: 100%;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 30px 50px 30px;
+    transition: 0.4s;
+
+}
+
+.item:hover {
+    background-color: antiquewhite;
+    border: none;
+    transform: rotate(5deg);
+}
+
+.number {
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--common);
+}
+
+.number-info {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--halka-kala);
+}
+
+/*------------------- 
+sponspores style
+------------------- */
+.sponspors-text {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sponspors-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--common);
+}
+
+.sponspors-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--halka-kala);
+    padding-bottom: 50px;
+}
+
+.sponspors-banners {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 130px;
+}
+
+.sponspors-banners img {
+    filter: grayscale(100%);
+
+}
+
+.sponspors-banners img:hover {
+    filter: grayscale(0%);
+
+}
+
+/* footer part stlye */
+
+.footer-part{
+    margin-bottom: 200px;
+}
+.footer-desc{
+    text-align: center;
+    padding: 40px;
+    max-width: 1440px;
+    width: 96%;
+    margin: 0 auto;
+    background-color:#FFF4E7;
+}
