@@ -198,6 +198,11 @@ h2 {
 /* ----------------Features love and enjoy part style------------ */
 
 
+#line{
+    width: 2px;
+    height: 100px;
+    background: var(--orange);
+}
 .text-title {
     margin-left: 50px;
 }
@@ -396,7 +401,7 @@ media quary for mobile
     /* ----------------
     header part
     --------------- */
-    *{
+    body{
         margin: 0;
         padding: 0;
     }
@@ -487,6 +492,7 @@ facts item
     display: flex; 
     flex-direction: column;
     gap: 50px;
+    filter: grayscale(1);
  }
  /* -----footer part----- */
  .footer-part{
