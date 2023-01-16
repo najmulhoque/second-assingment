@@ -56,6 +56,18 @@ nav li {
     margin-right: 40px;
     font-weight: 800;
     font-size: 18px;
+    transition: 0.3s;
+    
+    
+
+}
+ul li a:hover{
+    cursor:pointer;
+    background-color:rgb(243, 153, 153);
+    color: black;
+    box-shadow:0 0 5px rgb(241, 155, 155),0 0 10px rgb(245, 141, 141),0 0 15px rgb(247, 148, 148);
+    font-weight: bold;
+    
 
 }
 
@@ -373,4 +385,101 @@ sponspores style
     width: 96%;
     margin: 0 auto;
     background-color:#FFF4E7;
+}
+
+
+/* -----------------
+media quary for mobile
+------------- */
+
+@media  screen and (max-width:576px) {
+    /* ----------------
+    header part
+    --------------- */
+   nav{
+    width: 100%;
+    display:inline;
+   }
+   nav ul{
+    display:flex;
+    flex-direction: column;
+    padding-right: 40px;
+   }
+   h2{
+    font-size: 60px;
+   }
+   .banner-image img{
+    padding: 0;
+    margin-bottom: 50px;
+   }
+   .button-primary{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    
+   }
+   /* ----------------
+   our future part
+   ------------ */
+   .our-future-content{
+    display: flex;
+    flex-direction:column-reverse;
+   }
+  .future-banner{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* ---------------
+  Features-content part
+  ----------- */
+  .love-enjoy-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .archeitect {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+  }
+.box{
+    width: 400px;
+    height: 200px;
+}
+.text-box-desc{
+    padding-left: 10px;
+}
+.enjoy-title{
+    padding-right:50pxpx ;
+}
+.experience-btn{
+    margin-left: 10px;
+    margin-top: -100px;
+}
+.big-button{
+    
+    width: 120px;
+    height: 90px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+}
+/* -----------------
+facts item
+ ---------------- */
+ .facts_item{
+ display: grid;
+ grid-template-columns:repeat(2,1fr);
+ gap: 10px;
+ }
+ .facts-content{
+    padding-left: 10px;
+ }
+ /* -------sponspors part--------- */
+ .sponspors-banners{
+    display: flex; 
+    flex-direction: column;
+    gap: 50px;
+ }
+ /* -----footer part----- */
 }
