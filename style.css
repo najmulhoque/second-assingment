@@ -489,4 +489,7 @@ facts item
     gap: 50px;
  }
  /* -----footer part----- */
+ .footer-part{
+    margin-bottom: 100px;
+ }
 }
